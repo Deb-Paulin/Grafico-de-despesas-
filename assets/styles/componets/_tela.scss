@@ -1,0 +1,103 @@
+@mixin posicao_dia {
+    position: relative;
+    bottom: -38px;
+}
+
+.tela {
+    width: 42.5%;
+    height: 29.5rem;
+    margin: 0 0 6rem 23rem;
+    background-color: var(--cor-tela);
+    border-radius: 14px;
+    .titulo_grafico {
+    padding: 26px 0 14px 36px;
+    color: var(--cor-fonte-principal);
+    font-size: 26px;
+    }
+    .grafico {
+        display: flex;
+        align-items: flex-end;
+        .coluna {
+        width: 45px;
+        border-radius: 5px;
+        margin: 25px 0 2px 0;
+        }
+        #coluna_0, #coluna_1, #coluna_3, #coluna_4, #coluna_5, #coluna_6 {
+        background-color: var(--vermelho-principal);
+        }
+        #coluna_0 {
+        height: 60px;
+        margin-left: 2.2rem;
+        }
+        #coluna_1 {
+        height: 120px;
+        }
+        #coluna_2 {
+        background-color: var(--azul-principal);
+        height: 160px;
+        }
+        #coluna_3 {
+        height: 100px;
+        }
+        #coluna_4 {
+        height: 80px;
+        }
+        #coluna_5 {
+        height: 140px;
+        }
+        #coluna_6 {
+        height: 90px;
+        }
+        #coluna_0, #coluna_1, #coluna_2, #coluna_3, #coluna_4,
+        #coluna_5, #coluna_6 {cursor: pointer;}
+        .dia_mon, .dia_wed {
+        @include posicao_dia;
+        left: -40px;
+        }
+        .dia_tue, .dia_thu, .dia_sun {
+        @include posicao_dia;
+        left: -36px;
+        }
+        .dia_fri {
+        @include posicao_dia;
+        left: -30px;
+        }
+        .dia_sat {
+        @include posicao_dia;
+        left: -34px;
+        }
+    }
+    .linha {
+    width: 90%;
+    margin: 50px 0 30px 28px;
+    }
+    .total {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        .texto {
+        color: var(--cor-fonte-secundaria);
+        font-size: 14px;
+        }
+        .valor {
+        color: var(--cor-fonte-principal);
+        font-size: 36px;
+        font-weight: 700;
+        }
+    }
+    .total_final {
+        display: grid;
+        justify-content: end;
+        margin: -40px 30px 0 0;
+        justify-items: end;
+        .porcentagem {
+        color: var(--cor-fonte-principal);
+        font-size: 14px;
+        font-weight: 700;
+        }
+        .texto_final {
+        color: var(--cor-fonte-secundaria);
+        font-size: 14px;
+        }
+    }
+}
