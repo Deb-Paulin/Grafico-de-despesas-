@@ -50,17 +50,6 @@
         }
         #coluna_0, #coluna_1, #coluna_2, #coluna_3, #coluna_4,
         #coluna_5, #coluna_6 {cursor: pointer;} 
-        #hover_1 {
-            color: white;
-            width: 50px;
-            height: 25px;
-            font-size: 15px;
-            margin-bottom: 170px;
-            text-align: center;
-            background-color: black;
-            border-radius: 5px;
-            position: absolute;
-        }
         .dia_mon, .dia_wed {
         @include posicao_dia;
         left: -40px;
