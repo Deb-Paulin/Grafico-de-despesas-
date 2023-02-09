@@ -158,4 +158,22 @@ body {
 .tela .total_final .texto_final {
   color: var(--cor-fonte-secundaria);
   font-size: 14px;
+}
+.tela #val0, .tela #val1, .tela #val2, .tela #val3, .tela #val4, .tela #val5, .tela #val6 {
+  opacity: 0;
+  background: black;
+  color: white;
+  font-size: small;
+  position: absolute;
+  margin-top: -2rem;
+  transition: 2s;
+}
+.tela #value {
+  opacity: 1;
+  background: black;
+  color: white;
+  font-size: small;
+  position: absolute;
+  margin-top: -2rem;
+  transition: 2s;
 }/*# sourceMappingURL=style.css.map */
