@@ -119,3 +119,76 @@
         transition:  2s
     }
 }
+
+@media screen and (max-width: 480px) {
+    .tela {
+        width: 65%;
+        height: 20.5rem;
+        margin: 1rem 0 0 1.3rem;
+        .titulo_grafico {
+        font-size: 18px;
+        margin-left: 1rem;
+        padding: 20px 10px;
+        }
+        .grafico {
+            display: flex;
+            align-items: flex-end;
+            .coluna {
+            width: 20px;
+            padding: 10px;
+            }
+            #coluna_0 {
+            height: 20px;
+            margin-left: 1.3rem;
+            }
+            #coluna_1 {
+            height: 42px;
+            }
+            #coluna_2 {
+            background-color: var(--azul-principal);
+            height: 65px;
+            }
+            #coluna_3 {
+            height: 35px;
+            }
+            #coluna_4 {
+            height: 26px;
+            }
+            #coluna_5 {
+            height: 50px;
+            }
+            #coluna_6 {
+            height: 30px;
+            }
+            .dia_mon, .dia_tue, .dia_wed, .dia_thu, .dia_fri, .dia_sat, .dia_sun {
+            font-size: 14px;
+            }
+            .dia_mon, .dia_wed {
+            @include posicao_dia-mobile;
+            left: -23px;
+            }
+            .dia_tue, .dia_thu, .dia_sun {
+            @include posicao_dia-mobile;
+            left: -20px;
+            }
+            .dia_fri {
+            @include posicao_dia-mobile;
+            left: -17px;
+            }
+            .dia_sat {
+            @include posicao_dia-mobile;
+            left: -19px;
+            }
+        }
+        .linha {
+        margin: 38px 0 5px 15px;
+        }
+        .total {
+            margin-left: 20px;
+            .valor {
+            font-size: 26px;
+            padding-top: 2px;
+            }
+        }
+} 
+}
