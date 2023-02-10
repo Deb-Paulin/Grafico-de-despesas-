@@ -44,6 +44,26 @@ body {
   padding-left: 19rem;
 }
 
+@media screen and (max-width: 480px) {
+  .visor {
+    width: 30%;
+    margin: 4rem 0 0 1.3rem;
+    padding: 10px 84px;
+  }
+  .visor .titulo, .visor .valor {
+    margin-left: -5rem;
+  }
+  .visor .titulo {
+    font-size: 12px;
+  }
+  .visor .valor {
+    font-size: 22px;
+  }
+  .visor .logo {
+    padding-left: 8.5rem;
+  }
+}
+
 .tela {
   width: 42.5%;
   height: 29.5rem;
@@ -165,4 +185,81 @@ body {
   position: absolute;
   margin-top: -2rem;
   transition: 2s;
+}
+
+@media screen and (max-width: 480px) {
+  .tela {
+    width: 65%;
+    height: 20.5rem;
+    margin: 1rem 0 0 1.3rem;
+  }
+  .tela .titulo_grafico {
+    font-size: 18px;
+    margin-left: 1rem;
+    padding: 20px 10px;
+  }
+  .tela .grafico {
+    display: flex;
+    align-items: flex-end;
+  }
+  .tela .grafico .coluna {
+    width: 20px;
+    padding: 10px;
+  }
+  .tela .grafico #coluna_0 {
+    height: 20px;
+    margin-left: 1.3rem;
+  }
+  .tela .grafico #coluna_1 {
+    height: 42px;
+  }
+  .tela .grafico #coluna_2 {
+    background-color: var(--azul-principal);
+    height: 65px;
+  }
+  .tela .grafico #coluna_3 {
+    height: 35px;
+  }
+  .tela .grafico #coluna_4 {
+    height: 26px;
+  }
+  .tela .grafico #coluna_5 {
+    height: 50px;
+  }
+  .tela .grafico #coluna_6 {
+    height: 30px;
+  }
+  .tela .grafico .dia_mon, .tela .grafico .dia_tue, .tela .grafico .dia_wed, .tela .grafico .dia_thu, .tela .grafico .dia_fri, .tela .grafico .dia_sat, .tela .grafico .dia_sun {
+    font-size: 14px;
+  }
+  .tela .grafico .dia_mon, .tela .grafico .dia_wed {
+    position: relative;
+    bottom: -35px;
+    left: -23px;
+  }
+  .tela .grafico .dia_tue, .tela .grafico .dia_thu, .tela .grafico .dia_sun {
+    position: relative;
+    bottom: -35px;
+    left: -20px;
+  }
+  .tela .grafico .dia_fri {
+    position: relative;
+    bottom: -35px;
+    left: -17px;
+  }
+  .tela .grafico .dia_sat {
+    position: relative;
+    bottom: -35px;
+    left: -19px;
+  }
+  .tela .linha {
+    margin: 38px 0 5px 15px;
+  }
+  .tela .total {
+    margin-left: 20px;
+  }
+  .tela .total .valor {
+    font-size: 26px;
+    padding-top: 2px;
+  }
 }/*# sourceMappingURL=style.css.map */
