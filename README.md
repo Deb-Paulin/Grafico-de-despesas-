@@ -1,4 +1,6 @@
-<h1 align="center"># Grafico de despesas</h1>
+<h1 align="center">Grafico de despesas</h1>
 
-## Descrição do Projeto
-<p align="center">Lading-page que demosntra gráfico de despesas</p>
+<p align="center">Desafio do Frontend Mentor.</p>
+
+<img scr="design/desktop-preview.jpeg">
+
