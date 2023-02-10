@@ -24,3 +24,23 @@
     padding-left: 19rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .visor {
+        width: 30%;
+        margin: 4rem 0 0 1.3rem;
+        padding: 10px 84px;
+        .titulo, .valor {
+        margin-left: -5rem;
+        }
+        .titulo {
+        font-size: 12px;
+        }
+        .valor {
+        font-size: 22px;
+        }
+        .logo {
+        padding-left: 8.5rem;
+       }
+    }
+} 
