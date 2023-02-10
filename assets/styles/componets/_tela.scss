@@ -3,6 +3,11 @@
     bottom: -38px;
 }
 
+@mixin posicao_dia-mobile {
+    position: relative;
+    bottom: -35px;
+}
+
 .tela {
     width: 42.5%;
     height: 29.5rem;
