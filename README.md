@@ -1,7 +1,7 @@
 # Gráfico de despesas
 
 ## Sobre o projeto
-Esse é um desafio do Front-End Mentor onde deveria criar uma landing page com um gráfico que indicasse as despesas de acordo com cada dia da semana. 
+Esse é um desafio do Front-End Mentor, onde deveria criar uma landing page com um gráfico que indicasse as despesas de acordo com cada dia da semana. 
 
 ## Layout Desafio
 ![Web](https://github.com/Deb-Paulin/Grafico-de-despesas-/blob/main/design/desktop-preview.jpg)
