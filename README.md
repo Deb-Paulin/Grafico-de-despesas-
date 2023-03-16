@@ -4,9 +4,10 @@
 Esse é um desafio do Front-End Mentor, onde deveria criar uma landing page com um gráfico que indicasse as despesas de acordo com cada dia da semana. 
 
 ## Layout Desafio
-![Web](https://github.com/Deb-Paulin/Grafico-de-despesas-/blob/main/design/desktop-preview.jpg)
+![Web] ![desktop-design](https://user-images.githubusercontent.com/113848968/225643167-f5adf3fc-32e9-496e-b7a0-f97b79045933.jpg)
 
-![Mobile](https://github.com/Deb-Paulin/Grafico-de-despesas-/blob/main/design/mobile-design.jpg)
+![Mobile]![mobile-design](https://user-images.githubusercontent.com/113848968/225643103-61aac50e-1e97-4f7c-911f-a18a72eb3ec3.jpg)
+
 
 ## Resultado
 ![Screenshot from 2023-02-10 13-37-26](https://user-images.githubusercontent.com/113848968/218146974-bca747ee-79a5-46a6-a583-aa44d938ace9.png)
