@@ -4,9 +4,9 @@
 Esse é um desafio do Front-End Mentor, onde deveria criar uma landing page com um gráfico que indicasse as despesas de acordo com cada dia da semana. 
 
 ## Layout Desafio
-![Web] ![desktop-design](https://user-images.githubusercontent.com/113848968/225643167-f5adf3fc-32e9-496e-b7a0-f97b79045933.jpg)
+![desktop-design](https://user-images.githubusercontent.com/113848968/225643167-f5adf3fc-32e9-496e-b7a0-f97b79045933.jpg)
 
-![Mobile]![mobile-design](https://user-images.githubusercontent.com/113848968/225643103-61aac50e-1e97-4f7c-911f-a18a72eb3ec3.jpg)
+![mobile-design](https://user-images.githubusercontent.com/113848968/225643103-61aac50e-1e97-4f7c-911f-a18a72eb3ec3.jpg)
 
 
 ## Resultado
