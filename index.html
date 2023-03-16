@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de despesas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css"> 
+</head>
+<body>
+    <main>
+        <section class="visor">
+            <div class="visor_balanca">
+                <span class="titulo">My balance</span>
+                <span class="valor">$921.48</span>
+            </div>
+            <img src="./assets/img/logo.svg" alt="Logo" class="logo" width="64px">
+        </section>
+
+        <section class="tela">
+            <h1 class="titulo_grafico">Spending - Last 7 days</h1>
+            <div class="grafico">
+                <div class="coluna" id="coluna_0">
+                    <p id="val0">$200</p>
+                </div>
+                <p class="dia_mon">mon</p>
+                <div class="coluna" id="coluna_1">
+                    <p id="val1">$350</p>
+                </div>
+                <p class="dia_tue">tue</p>
+                <div class="coluna" id="coluna_2">
+                    <p id="val2">$450</p>
+                </div>
+                <p class="dia_wed">wed</p>
+                <div class="coluna" id="coluna_3">
+                    <p id="val3">$300</p>
+                </div>
+                <p class="dia_thu">thu</p>
+                <div class="coluna" id="coluna_4">
+                    <p id="val4">$250</p>
+                </div>
+                <p class="dia_fri">fri</p>
+                <div class="coluna" id="coluna_5">
+                    <p id="val5">$400</p>
+                </div>
+                <p class="dia_sat">sat</p>
+                <div class="coluna" id="coluna_6">
+                    <p id="val6">$270</p>
+                </div>
+                <p class="dia_sun">sun</p>
+            </div>  
+
+            <img src="./assets/img/linha.svg" alt="linha" class="linha">
+            <div class="total">
+                <span class="texto">Total this month</span>
+                <span class="valor">$478.33</span>
+            </div>
+            <div class="total_final">
+                <span class="porcentagem">+2.4%</span>
+                <span class="texto_final">from last month</span>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
